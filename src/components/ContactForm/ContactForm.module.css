@@ -1,0 +1,45 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: 2px solid #D3B8E6; 
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F3E5F5; 
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.nameInput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.numberInput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.submitButton {
+    max-width: 120px;
+    min-height: 30px;
+    background-color: #D3B8E6; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #C3A4D6; 
+}
+
+.errorMessage {
+    color: red;
+    font-size: 12px;
+}

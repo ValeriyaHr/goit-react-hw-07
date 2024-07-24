@@ -1,0 +1,29 @@
+.searchBlock {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    background-color: #F3E5F5;
+    border-radius: 10px;
+    border: 2px solid #D3B8E6;
+    max-width: 320px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.searchInput {
+    max-width: 300px;
+    min-height: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #D3B8E6;
+    outline: none;
+}
+
+.searchInput:focus {
+    border-color: #C3A4D6; 
+}
+
+.searchBlock label {
+    color: #6A1B9A;
+}
